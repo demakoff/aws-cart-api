@@ -1,0 +1,10 @@
+---
+version: "3.2"
+
+services:
+
+  cart-api:
+    container_name: cart-api
+    image: cart-api
+    ports:
+      - "8080:8080"
